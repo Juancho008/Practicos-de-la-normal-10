@@ -1,0 +1,76 @@
+<html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Juan Espindola</title>
+    </head>
+    <!-- el "DIV"contenedor es lo que guarda todo el texto e imagenes con las que vamos a trabajar-->
+    <center><div class="contenedor">
+        <!-- este div lo utilizaremos mas adelante para darle la opacidad al rectangulo-->
+        <div class="opacidad">
+            <!--Este seria la imagen rectangular con la que hago el fodno transparente-->
+            <img src="img/50727.png" height="700px" width="750px">
+        </div>
+            <div class="centrado">
+                <!--Con este div centro toda la imagen-->
+            <body background="img/2.jpg">
+                <!--tipo de fuente-->
+                 <font face="arial">
+                     <!--Aca cargo el "Body" con objetos que voy a trabajar luego con el "Style"-->
+                     <center><img src="img/yo2.png" height="200px" width="200px"></center>
+                     <!--Aca coloco una imagen mia para trabajar-->
+                    <center><h1 style="color:white" ><b></b>Juan Ignacio Espindola</b></h1></center>
+                    <!-- Titulo principal-->
+                    <center><h2 style="color:white">Tecnico Electro Mecanico</h2></center>  
+                    <!--Aca coloco un Sub-Titulo-->
+                    <center><p style="color:white" >HTML fue inventado por Tim Berners-Lee, un físico del instituto de investigación CERN en Suiza. Se le ocurrió la idea de un sistema de hipertexto basado en Internet y publicó la primera versión de HTML en 1991. Desde entonces, cada nueva versión del lenguaje HTML viene con nuevas etiquetas y atributos para el marcado.
+                    También cabe destacar que HTML es considerado ahora un estándar oficial de la web. El World Wide Web Consortium (W3C) mantiene y desarrolla las especificaciones de HTML, además de proporcionar actualizaciones periódicas.
+                    Un sitio web normal incluye varias páginas HTML diferentes. Por ejemplo, una página de inicio, una página de presentación y una página de contacto tienen archivos HTML distintos.
+                 </font>
+                 <!--Texto comun en html-->
+                </p></center>
+                <!--Aca manejo los estilos del codigo para modificar el rectangulo del fondo, la imagen circular y centrar los textos-->
+                        <!--Este Style cumple la misma funcion que la hoja de estilo, la diferencia es que este es mas basico a la hora de manejarse con el codigo, permite estilso basicos a diferencia de la hoja de estilo-->
+                       <center>
+                        <ol>
+                            <li><a href="https://www.facebook.com/Barckdo"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/barckdo_gr"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/juan-espindola-99b93a16a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                         </ol>
+                        </center>
+                <style> 
+                    .opacidad{
+                        opacity: 0.8;
+
+                    }
+                    .contenedor{
+                        position: relative;
+                        display: inline-block;
+                        text-align: center;
+                    }
+                    .centrado{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                    ol{
+                        list-style: none;
+                    }
+                    ol li{
+                        display: inline-block;
+                    }
+                    ol li a{
+                            color:white;
+                            font-size: 45px;
+                            padding: 20px 20px;
+                            }       
+                </style>
+                <!--Cierro los estilos-->
+
+            </div>
+        </div>
+    </div>
+    </center>
+    </body>
+</html>

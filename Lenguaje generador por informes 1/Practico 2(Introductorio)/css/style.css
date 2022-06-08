@@ -1,0 +1,141 @@
+body{
+    background:url("../img/PCG5mFl.jpg");
+    background-size: 1900px 3200px;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.lista ol {
+    list-style: none;
+}
+
+.lista ol li {
+    display: inline-block;
+}
+
+.lista ol li a {
+    margin-left: 20px;
+    color: white;
+    font-size: 21px;
+    padding: 20px 40px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: white;
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid #00807A;
+    padding: 10px;
+    background-color: #005452;
+    border-radius: 50px;
+    transition: linear 0.2s;
+}
+.lista ol li a:hover{
+    background-color: white;
+    outline: invert;
+    color: #005452;
+    border: 1px solid #00807A;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color:#005452;
+}
+
+article {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 90px;
+}
+
+section {
+    border: 1px solid #0000007a;
+    padding: 10px;
+    background-color: #0000007a;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: #00807aad;
+    border-radius: 50px;
+}
+
+aside h1 {
+    color: white;
+    font-size: 25px;
+}
+
+aside p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside img {
+    border-radius: 55px;
+}
+
+img {
+    border-radius: 20px;
+}
+ol {
+    list-style: circle;
+    list-style-type: disc;
+}
+
+ol li {
+    margin-top: 50px;
+}
+
+ol li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #005452;
+    font-size: 20px;
+}
+
+.box-menu2 {
+    border: 1px solid #ffffffe4;
+    padding: 10px;
+    background-color: #ffffffe4;
+    border-radius: 50px;
+    margin-top: 50px
+}
+
+.box-menu2 h1 {
+    color: #00807A;
+}
+
+.box-menu2 p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-menu2 details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-menu3 {
+    border: 1px solid #0000007a;
+    padding: 10px;
+    background-color: #0000007a;
+    border-radius: 50px;
+    margin-top: 50px
+}
+
+.box-menu3 h1 {
+    color: white;
+}
+
+.box-menu3 p {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

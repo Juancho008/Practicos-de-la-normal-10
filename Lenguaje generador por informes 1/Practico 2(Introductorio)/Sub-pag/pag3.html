@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icono/12-removebg-preview.ico">
+    <title>Registro</title>
+</head>
+<body background="../img/PCG5mFl.jpg">
+    <font face="Verdana">
+   <center><h1>Registro</center></h1>
+   <div class="box-register">
+    <ol>
+            <h4>Nombre</h4>
+            <li><input type="text" name="dato" class="letras"></li>
+            <h4>Apellido</h4>
+            <li><input type="text" name="dato" class="letras"></li>
+            <h4>Direccion</h4>
+            <li><input type="text" name="dato" class="letras"></li>
+            <h4>Usuario</h4>
+            <li><input type="text" name="dato" class="letras"></li>
+            <h4>Contraseña</h4>
+            <li><input type="password" pattern=".{6,}" class="letras"></li>
+            <h4>Repita Contraseña</h4>
+            <li><input type="password" pattern=".{6,}" class="letras"></li>
+            <h4>Indique cual de los siguientes animales tiene:</h4>
+            <div class="check">
+                <li><input type="checkbox" name="perros">Perros</li>
+                <li><input type="checkbox" name="gatos">Gatos</li>
+                <li><input type="checkbox" name="otros">Otros</li>
+            </div>   
+    </ol>
+   <input type="submit" value="Registrar" class="submit">
+    </div>
+    <div class="button">
+        <a href="../Practico 2.html">VOLVER</a>
+    </div>
+    </font>
+    <style>
+        .letras{
+            border-radius: 20px;
+            color:#00807A;
+            padding: 10px 10px 5px;
+        }
+        .check{
+            color: white;
+        }
+        .submit{
+            border-radius: 20px;
+            background-color: #00807A;
+            border-color: #00807A;
+            font-size: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 30px;
+        }
+        .box-register h4{
+            color: white;
+        }
+        .box-register{
+            border: 1px solid #0000007a;
+            padding: 10px;
+            background-color: #0000007a;
+            border-radius: 50px;
+            margin-top: 50px   
+        }
+        .box-register ol{
+            list-style: none;
+        }
+        h1{
+            color:white;
+            font-size: 50px;
+        }
+        .button{
+            margin-top: -40px;
+            margin-left: 1000px;
+        }
+       .button a{
+            color:white;
+            -webkit-text-stroke: 1px;
+            -webkit-text-stroke-color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border: 1px solid #00807A;
+            padding: 10px;
+            background-color: #00807A;
+            border-radius: 50px;
+        }
+    </style>
+</body>
+</html>
